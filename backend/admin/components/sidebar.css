@@ -1,0 +1,40 @@
+.sidebar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: red;
+    height: 110px;
+    gap: 60px;
+}
+.sidebar-image1,.sidebar-image2{
+    margin: 0;
+    padding-top: 10px;
+    height: 60px;
+    width: 60px;
+   
+    cursor: pointer;
+}
+.sidebar-image1:hover,.sidebar-image2:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.sidebar-addproducts,
+.sidebar-listproducts {
+    display: flex;
+    flex-direction: column;
+    height: 90px;
+    justify-content: center;
+    align-items: center;
+   
+    gap: 5px;
+}
+
+
+
+.sidebar-para {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}

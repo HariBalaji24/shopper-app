@@ -1,0 +1,12 @@
+.newcollection {
+  width: 80%;
+  margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    text-align: center;
+    justify-items: center; /* Center items horizontally within their grid cell */
+    align-items: center; /* Align items to the top of the grid */
+  }
+.newcoll-h1{
+    padding-bottom: 30px;
+}

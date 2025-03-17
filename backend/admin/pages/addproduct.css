@@ -1,0 +1,127 @@
+.addproduct {
+    padding-top:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f8f8f8;
+}
+
+.addproduct-container {
+    width: 50%;
+    background: rgb(12, 12, 12);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.addproduct-title,
+.addproduct-oldprice,
+.addproduct-newprice,
+.addproduct-category,
+.addproduct-file {
+    margin-bottom: 15px;
+}
+
+.addproduct-name {
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+input, select {
+    width: 99%;
+    padding: 10px 0 10px 5px;
+    font-size: 14px;
+    background: #ebebeb;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #6c5ce7;
+    box-shadow: 0 0 5px rgba(108, 92, 231, 0.5);
+}
+
+.addproduct-eren {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.addproduct-oldprice, .addproduct-newprice {
+    width: 48%;
+}
+
+.addproduct-file {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #ccc;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.addproduct-file img {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.addproduct-file input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addproduct-add {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.addproduct-add:hover {
+    background: #574b90;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .addproduct-container {
+        width: 90%;
+    }
+
+    .addproduct-eren {
+        flex-direction: column;
+    }
+
+    .addproduct-oldprice, .addproduct-newprice {
+        width: 100%;
+    }
+}
+.previewimage{
+    height: 300px;
+    width: 600px;
+}
+.allproduct-description {
+    width: 97%; /* Full width of container */
+    height: 200px; /* Increase height */
+    padding: 10px; /* Adds spacing inside */
+    font-size: 16px; /* Increases text size */
+    border-radius: 5px; /* Rounded corners */
+    border:none; /* Light border */
+    resize: vertical; /* Allow vertical resizing */
+    background: #ebebeb; /* Matches input background */
+    font:"poppins"
+  }
+  

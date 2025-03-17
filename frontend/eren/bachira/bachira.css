@@ -1,0 +1,97 @@
+.bachirabluelock{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    padding-bottom: 30px;
+}
+.bachira{
+    font-family: 'Poppins';
+    color:black;
+    width: 85%;
+    height: 100%;
+    padding-left: 30px;
+}
+.bachira-top-elements{
+    display: flex;
+    gap:10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.breadcrumarrow{
+    height: 15px;
+    width: 10px;
+}
+.bachira-imagesection{
+      display: flex;
+      gap:20px;
+}
+.bachira-smallimages{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+.bachira-img{
+    height: 100%;
+    width: 100px;
+    object-fit: fill;
+    cursor: pointer;
+}
+.bachira-right{
+    display: flex;
+    gap:30px;
+}
+.bachira-prouctname{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bachira-img1{
+    height: 539px;
+    width: 100%;
+    cursor: pointer;
+    object-fit: fill;
+}
+.bachira-star-section{
+    padding: 20px 0 20px;
+}
+.bachira-price-section{
+    display: flex;
+    gap:30px;
+    font-size: 18px;
+    padding-bottom: 20px;
+}
+.bachira-old{
+    text-decoration: line-through;
+    color: rgb(165, 165, 165);
+}
+.bachira-sizes{
+    display: flex;
+    gap:20px;
+    margin-bottom: 30px;
+}
+.bachira-size{
+    border: 1px solid black;
+    padding: 10px 20px 10px 20px;
+    cursor: pointer;
+}
+.selectsize{
+    font-size: 20px;
+}
+.bachira-span1{
+    
+    font-weight: 600;
+}
+.spanelements{
+    margin-top: 20px;
+    font-size: 18px;
+}
+.bachira-desc{
+    padding-top: 20px;
+    padding-right: 10px;
+    font-size: 18px;
+}
+.bachira-home{
+    color: black;
+}
+.bachira-bigimage{
+    width: 50%;
+}

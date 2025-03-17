@@ -1,0 +1,54 @@
+.container1{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    background:pink;
+}
+.hero-container2{
+    display: flex;
+    width: 80%;
+    align-items: center;
+     justify-content: center;
+    align-items: center;
+    font-family:"Poppins", serif; 
+   color: white;
+   gap: 60px;
+}
+.poppins-extralight {
+    font-family: "Poppins", serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #000;
+    
+    
+}
+.p1{
+    font-size:50px;
+    font-weight: 700;
+}
+.p2{
+    font-size:40px;
+    font-weight: 500;
+    font-stretch:ultra-condensed;
+}
+.p3{
+    font-size:40px;
+    font-weight: 500;
+}
+button{
+    height: 50px;
+    width: 150px;
+    border-radius: 50px;
+    font-weight: bold;
+    background-color: #D3D3D3;
+    color: black;
+}
+.hero-image{
+    height: 500px;
+}

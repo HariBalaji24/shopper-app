@@ -1,0 +1,33 @@
+.email{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 100px ;
+    border: 1px solid black;
+} 
+.email-input{
+    height: 50px;
+    background-color: rgb(177, 177, 177);
+    width: 400px;
+    padding: 20px;
+    color: white;
+    outline: none;
+}
+.email-input,.email-button{
+    border-radius: 50px;
+    font-family: 'Poppins';
+    border: none;
+    object-fit: contain;
+}
+.email-submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}

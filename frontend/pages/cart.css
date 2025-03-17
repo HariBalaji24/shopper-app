@@ -1,0 +1,49 @@
+/* General Styles */
+.cart-container {
+    font-family: "Poppins", sans-serif;
+    display: flex;
+    justify-content: center;   
+}
+.cartcontainer1{
+    padding-top: 30px;
+width: 80%;
+}
+.cart-header{
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    gap:50px;
+    
+}
+.cart-divider{
+    border: 1px solid black;
+}
+.cart-item{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr 1fr 1fr;
+    gap:50px;
+    font-size: 17px;
+}
+.cart-item-image{
+    height: 70px;
+    width: 60px;
+    cursor: pointer;
+    margin: auto;
+}
+.cart-item-remove{
+    height: 20px;
+    width: 20px;
+   margin: auto;
+}
+
+.cart-header-item{
+    text-align: center;
+}
+.cart-item{
+    text-align: center;
+}
+
+.cart-total{
+
+    padding-top: 40px;
+}
